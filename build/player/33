@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<title>Moses Malone</title>
+
+	<!-- note the special href for files in the Flask "static" folder -->
+	<link rel="stylesheet" href="../static/css/main.css">
+
+</head>
+<body>
+
+<div id="container">
+
+  <!-- Jinja2 directives: page contents will go between them -->
+  
+
+	<!-- the full dict for a president is sent here as pres by the route -->
+
+	<h1>Moses Malone</h1>
+
+	<!-- NOTE the pattern for pointing to a file inside the static folder -->
+
+
+	<p>Moses Malone, was born on March 23,1955, in Petersburg, Virginia. He played for 21 years, and played for the Buffalo Braves (Currently Known as the Los Angeles Clippers), Houston Rockets, Philadelphia 76ers, Washington Bullets (Currently Known as the Washington Wizards), Atlanta Hawks, Milwaukee Bucks and the San Antonio Spurs.
+	</p>
+
+	<p><a href=" https://en.wikipedia.org/wiki/Moses_Malone">View Wikipedia entry for Moses Malone.</a></p>
+
+	<p><a href="../index.html">Return to the list</a> to select a different player.</p>
+
+
+
+</div>
+
+</body>
+</html>
