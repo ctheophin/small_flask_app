@@ -1,0 +1,57 @@
+* { box-sizing: border-box; }
+
+body {
+    font-family: "Times New Roman", Times, serif;
+    font-size: 100%;
+    color: #000000;
+    background: #631b13;
+    margin: 0;
+}
+
+#container {
+    border-style: solid;
+    border-color: #b28110;
+    margin: 2em auto;
+    max-width: 740px;
+    padding: 2em 4em;
+    background: #fff;
+    border-radius: 40px;
+    border-width: 10px;
+
+}
+
+h1 {
+    font-family: 'Georgia', serif;
+    font-size: 3em;
+    margin: 0;
+    padding: 0.5em 0;
+}
+
+p, li {
+    font-size: 1.4em;
+    line-height: 1.5em;
+}
+
+a {
+    color: #009;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #cebe12;
+    text-decoration: underline;
+}
+
+@media (max-width: 800px) {
+    body {
+        background: #fff;
+    }
+    #container {
+        margin: 0;
+        width: 100%;
+        padding: 2em;
+    }
+    h1 {
+        padding: 0 0 0.3em 0;
+    }
+}
